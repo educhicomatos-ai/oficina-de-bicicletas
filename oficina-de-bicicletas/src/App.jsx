@@ -87,7 +87,7 @@ function App() {
             cliente <input value={client} onChange={(e) => setClient(e.target.value)} />
             serviço <input value={service} onChange={(e) => setService(e.target.value)} />
             valor <input type="number" value={value} onChange={(e) => setValue(e.target.value)} />
-            {/* <button onClick={alterna}> {idEditando ? "Cancelar" : "Apagar"} </button> */}
+
             <button onClick={addService}> ADD </button> 
       </form>
 
